@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>third asigment</title>
+</head>
+
+<body>
+    <div id="home">
+        <header class="d-flex align-items-center justify-content-between px-3">
+            <img class=" rounded rounded-circle p-2" src="js/img/logooooooo.jpg" alt="">
+            <h1 class="fw-bolder text-capitalize">welcome to dell website</h1>
+        </header>
+        <div class="container-fluid">
+            <nav class="bg-white">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>service</li>
+                    <li>ptoduts</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+            <div class="form-and-empty d-flex px-3">
+                <div class="form w-50 shadow-lg bg-light rounded-3 p-3 me-4">
+                    <form action="">
+                        <label for="">first name</label>
+                        <input type="text" id="fname" class="form-control" placeholder="enter you  first name">
+
+                        <label for="">last name</label>
+                        <input type="text" id="lname" class="form-control" placeholder="enter you  last name">
+
+                        <label for="">capitals</label>
+                        <select name="countries" class="form-control">
+                            <option value="cairo" class="option">cairo</option>
+                            <option value="londo" class="option">londo</option>
+                            <option value="paric" class="option">paric</option>
+                            <option value="madrid" class="option" disabled>madrid</option>
+                            <option value="rooma" class="option">rooma</option>
+                        </select>
+
+                        <textarea name="" id="massge" cols="" rows="3" class="form-control mt-3"
+                            placeholder="typt massge"></textarea>
+                    </form>
+                </div>
+                <div class="empaty w-50 bg-white rounded-3 shadow-lg ">
+                    <h3 id="first-name" class="p-3 text-capitalize text-black"></h3>
+                    <h3 id="last-name" class="p-3 text-capitalize text-black"></h3>
+                    <h3 id="selelectedCantory" class="p-3 text-capitalize text-black"></h3>
+                    <p id="enterd-Massge" class="p-3 text-muted fw-bolder"></p>
+                </div>
+            </div>
+
+            <button id="btn" class="btn btn- mx-5 my-1 px-5"> print</button>
+        </div>
+
+        <footer class=" shadow rounded-3 m-5 py-4 text-center text-capitalize">
+            <h6>developed by saleh Badruddin</h6>
+        </footer>
+    </div>
+    <!-- about section -->
+    <section id="about">
+        <header class="d-flex align-items-center justify-content-between px-3">
+            <img class=" rounded rounded-circle p-2" src="js/img/logooooooo.jpg" alt="">
+            <h1 class="fw-bolder text-capitalize">welcome to dell website</h1>
+        </header>
+        <div class="container-fluid">
+            <nav class="bg-white">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>service</li>
+                    <li>ptoduts</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+
+            <div class="control-bord text-center">
+                <div class="container-fluid">
+                    <div class="rom d-flex p-2">
+                        <div class="col-md-3 px-1">
+                            <img src="js/img/pc.jpg" alt="" class="w-100 px-1 d-none" id="pc-img">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="js/img/laptop.jpg" alt="" class="w-100 px-1 d-none" id="laptop-img">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="js/img/keybord.jpg" alt="" class="w-100 px-1 d-none" id="keybord-img">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="taplet.jpg" alt="" class="w-100 px-1 d-none" id="taplet-img">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn px-5" id="keyboard"> keyboard</button>
+                <button class="btn px-5" id="pc"> pc</button>
+                <button class="btn px-5" id="laptop"> laptop</button>
+                <button class="btn px-5" id="taplet"> taplet</button>
+
+            </div>
+
+
+        </div>
+
+        <footer class=" shadow rounded-3 m-5 py-4 text-center text-capitalize">
+            <h6>developed by saleh Badruddin</h6>
+        </footer>
+        </div>
+    </section>
+
+    <!-- end about section -->
+
+
+    <!-- strart section seevice -->
+    <section id="service">
+        <header class="d-flex align-items-center justify-content-between px-3">
+            <img class=" rounded rounded-circle p-2" src="js/img/logooooooo.jpg" alt="">
+            <h1 class="fw-bolder text-capitalize">welcome to dell website</h1>
+        </header>
+        <div class="container-fluid">
+            <nav class="bg-white">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>service</li>
+                    <li>ptoduts</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+
+            <div class="control-bord">
+                
+                <label for="">serial number :</label> 
+                <input type="number"class="form-control" id="sir-num-input">
+                <label for="">customer name</label> 
+                <input type="text"class="form-control" id="customer-name-input">
+                <label for="">product name</label>
+                <input type="text"class="form-control" id="product-name-input">
+                <label for="">number of products</label>
+                <input type="number"class="form-control" id="product-num-input">
+                <button class="btn m-3 px-5"id="insert-product">insert</button  >
+            </div>
+<div class="display-taple">
+<table class=" mx-auto   table table-striped">
+    <thead>
+        <th>ser</th>
+        <th>customer name</th>
+        <th>product name</th>
+        <th>number of products</th>
+    </thead>
+    <tbody id="tbody">
+        
+    </tbody>
+    
+</table>
+</div>
+
+        </div>
+
+        <footer class=" shadow rounded-3 m-5 py-4 text-center text-capitalize">
+            <h6>developed by saleh Badruddin</h6>
+        </footer>
+        </div>
+    </section>
+    <!-- end section service -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
